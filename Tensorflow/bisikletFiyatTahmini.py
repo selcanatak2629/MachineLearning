@@ -46,7 +46,7 @@ model.add(Dense(4, activation= "relu"))
 model.add(Dense(4, activation= "relu"))
 
 model.add(Dense(1))#cıktı
-
+ 
 model.compile(optimizer="rmsprop",loss="mse" )
 
 model.fit(x_train, y_train, epochs= 250)
